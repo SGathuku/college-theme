@@ -142,6 +142,7 @@ add_action( 'widgets_init', 'college_widgets_init' );
 function college_scripts() {
 	wp_enqueue_style( 'college-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'college-style', 'rtl', 'replace' );
+	wp_enqueue_style( 'custom-css', get_template_directory_uri() . '/css/dist/main.css');
 
 	wp_enqueue_script( 'college-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 

@@ -1,0 +1,12 @@
+body {
+  margin: 0 auto;
+  font-size: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.site-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
